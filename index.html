@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <div class="game-container">
+        <h1>Typing Game</h1>
+        <p>Type the word below as fast as you can!</p>
+        <div class="word-box">
+            <span id="word"></span>
+        </div>
+        <input type="text" id="input" placeholder="Start typing..." autofocus>
+        <div class="stats">
+            <p>Time: <span id="time">0.00</span> seconds</p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <button id="restart">Restart Game</button>
+        <div class="records">
+            <p id="scores">
+                Warm yourself! Tough fight ahead !!
+            </p>
+        </div>
+        <div class="credits">
+            Made by
+            <a href="https://shorturl.at/xECGX" style="text-decoration: none; color: red;">
+                @Arpan-Saha-25
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
